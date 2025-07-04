@@ -36,6 +36,23 @@ for (const element of num) {
     
 }
 console.log(newRev);
+let newRev1=[]
+let num1=[11,12,13,14,15,16,17];
+for (const element of num1) {
+    console.log(element);
+    
+    newRev1.unshift(element)
+}
+
+console.log(newRev1);
+
+let newRev2=[]
+let num2=[1,2,3,4,5,6,7,8,9];
+for(let x=num2.length;x>=0;x--){
+    console.log(x);
+    newRev2.push(x)
+}
+console.log(newRev2);
 
 
 
